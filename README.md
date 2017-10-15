@@ -12,24 +12,28 @@ https://infosys.beckhoff.com/english.php?content=../content/1033/tcadswebservice
 
 ### Read one variable
 
-ReadADSWeb([["Main.INT_test", "INT"]], "192.165.1.65", "5.29.121.198.1.1", 851)
+pyadswebservice.ReadADSWeb([["Main.INT_test", "INT"]], "192.165.1.65", "5.29.121.198.1.1", 851)
 
 ### Read multiple variables
 
-ReadADSWeb([["Main.INT_test", "INT"],["Main.DINT_test", "DINT"]],  "192.165.1.65", "5.29.121.198.1.1", 851)
+pyadswebservice.ReadADSWeb([["Main.INT_test", "INT"],["Main.DINT_test", "DINT"]],  "192.165.1.65", "5.29.121.198.1.1", 851)
 
 [10, 23]
 
 
 ### Write one variable
 
-WriteADSWeb([["Main.DINT_test",13, "DINT"]],  "192.165.1.65", "5.29.121.198.1.1", 851)
+pyadswebservice.WriteADSWeb([["Main.DINT_test",13, "DINT"]],  "192.165.1.65", "5.29.121.198.1.1", 851)
 
 ### Write multiple variables
 
-WriteADSWeb([["Main.DINT_test",13, "DINT"],["Main.INT_test",11, "INT"]],  "192.165.1.65", "5.29.121.198.1.1", 851)
+pyadswebservice.WriteADSWeb([["Main.DINT_test",13, "DINT"],["Main.INT_test",11, "INT"]],  "192.165.1.65", "5.29.121.198.1.1", 851)
 
+## Installation
 
+Download the package and install using the command:
+
+python setup.py install
 
 ## License
 
