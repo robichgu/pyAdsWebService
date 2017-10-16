@@ -1,3 +1,4 @@
 build/
 dist/
 pyAdsWebService.egg-info/
+__pycache__/

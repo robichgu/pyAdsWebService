@@ -1,9 +1,0 @@
-setup.py
-pyAdsWebService/__init__.py
-pyAdsWebService/pyAdsWebService.py
-pyAdsWebService.egg-info/PKG-INFO
-pyAdsWebService.egg-info/SOURCES.txt
-pyAdsWebService.egg-info/dependency_links.txt
-pyAdsWebService.egg-info/not-zip-safe
-pyAdsWebService.egg-info/requires.txt
-pyAdsWebService.egg-info/top_level.txt
